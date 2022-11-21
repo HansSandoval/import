@@ -1,0 +1,19 @@
+class Profile:
+    
+    def __init__(self,name,hashgtag,avatar,created_at ,mail,is_premium="false",status="online"):
+        self.name= name
+        self.hashgtag= hashgtag
+        self.avatar=avatar
+        self.created_at=created_at
+        self.mail=mail
+        self.is_premium=is_premium
+        self.status=status
+
+    def print(self):
+        print("id del usuario:",self.name)
+        print("nombre del usuario:",self.hashgtag)
+        print("Vestimenta del usuario:",self.avatar)
+        print("Fecha de creacion de usuario:",self.created_at)
+        print("Mail del usuario:",self.mail)
+        print("tiene premium:",self.is_premium)
+        print("status:",self.status)
